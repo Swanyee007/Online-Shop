@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+       background-color: black;
+     }
+
+.header {
+          background-color: orange;
+          width: 100%;
+          padding: 50px;
+          color: black;
+          display: flex;
+          text-align: left;
+          align-items: center;
+        }
+
+.header h1 {
+             font-size: 90px;
+             font-family: 'Times New Roman', Times, serif;
+             background-color: black;
+             color: white;
+           }
+
+.function ul {
+                list-style: none;
+                display: flex;
+                color: orange;
+             }
+
+.function ul li {
+                  margin-left: 90px;
+                  text-align: center;
+                  font-size: 43px;
+                  margin-top: 10px;
+                }
+
+.function ul li a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                  }
+
+.function ul li a:hover {
+                          color: darkred;
+                        }
+
+/*Home Page*/
+
+.home_body {
+              margin-bottom: 550px;
+           }
+
+.home_body h3 {
+                color: antiquewhite;
+                margin: 40px;
+                font-size: 80px;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+              }
+
+.home_body img {
+                 width: 900px;
+                 display: flex;
+                 justify-content: space-around;
+                 float: left;
+               }
+
+/*footer*/
+
+.footer {
+          background-color: orange;
+          width: 100%;
+          padding: 50px;
+          color: black;
+          display: flex;
+          text-align: left;
+          align-items: center;
+        }
+
+.footer h1 {
+             font-size: 50px;
+             font-family: 'Times New Roman', Times, serif;
+             color: black;
+           }
+
+/*menu*/
+
+.menu_header h3 {
+        color: antiquewhite;
+                margin: 40px;
+                font-size: 80px;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+  .menu {
+            display: flex;
+        }
+  
+.menu ul {
+            list-style: none;
+            color: orange;
+         }
+
+.menu_text{
+              font-size: 20px;
+              text-align: center;
+            }
+
+.menu ul li img{
+                  width: 70%;
+                  margin: 70px 95px;
+               }
+
+/*about*/
+
+.about_header h3 {
+        color: antiquewhite;
+                margin: 40px;
+                font-size: 80px;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color: black;
+                 }
+
+.about_us {
+            text-align: center;
+            color: orange;
+            font-size: 50px;
+            width: 50%;
+            margin-left: 27%;
+            background-color: black;
+          }
+
+.about_us p {
+              font-family: 'Times New Roman', Times, serif;
+            }
+
+/*content*/
+
+.content_header h3 {
+                    color: antiquewhite;
+                    margin: 40px;
+                    font-size: 80px;
+                    text-align: center;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                   }
+
+.booking_box {
+               width: 30%;
+               background: orange;
+               margin-left: 36%;
+             }
+
+.content_label {
+                 padding-left: 1cm;
+                 padding-top: 20px;
+                 padding-bottom: 20px;
+                 color: white;
+                 font-size: 40px;
+                 text-align: justify;
+               }
+
+.booking_box_inner_body{
+                         background-color: rgb(51, 50, 50);
+                         color: yellow;
+                         padding: 10px 10px;
+                       }
+
+.content_footer {
+                  padding-left: 300px;
+                  padding-top: 17px;
+                  padding-bottom: 17px;
+                }
+
+.submit {
+            background-color: black;
+            color: orange;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+        
+.cancle {
+            background-color: black;
+            color: orange;
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
